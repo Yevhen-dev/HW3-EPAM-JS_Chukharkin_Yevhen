@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HW3_Chukharkin_Yevhen</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="header">
+
+        <div class="header__logo">
+            <a href="#">
+                <img class="header__logo--image" src="images/logo.png" alt="logo">
+            </a>
+        </div>
+
+        <div class="header__main">
+            <nav class="header__main__nav">
+                <ul class="header__main__nav__list">
+                    <li class="header__main__nav__list--item"><a href="#">Главная</a></li>
+                    <li class="header__main__nav__list--item"><a href="#">Категории</a></li>
+                    <li class="header__main__nav__list--item"><a href="#">Оплата и доставка</a></li>
+                    <li class="header__main__nav__list--item"><a href="#">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="header__registration">
+            <a class="header__registration--link" href="#">SignIn</a>
+        </div>
+
+    </header>
+
+    <section class="section">
+        <div class="section__container">
+            <div class="section__container--options">
+                <p>Сортировать по:</p>
+                <label for="reviews">Отзывы
+                    <select name="reviews" id="reviews">
+                        <option value="default">По умолчанию</option>
+                        <option value="down">Убыванию</option>
+                        <option value="up">Возрастанию</option>
+                    </select>
+                </label>
+                <label for="price">Цена
+                    <select name="price" id="price">
+                        <option value="default">По умолчанию</option>
+                        <option value="down">Убыванию</option>
+                        <option value="up">Возрастанию</option>
+                    </select>
+                </label>
+            </div>
+            <div class="section__container__products">
+                <ul class="section__container__products__list">
+
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
